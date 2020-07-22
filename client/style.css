@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+  }
+  
+  .todo-container {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .todo-app {
+    margin-top: 20px;
+  }
+  
+  .todo-item {
+    display: flex;
+    margin-top: 5px;
+  }
+  
+  .todo-form {
+    background-color: green;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .todo-form input {
+    width: 400px;
+    margin-left: 15px;
+  }
+  
+  .todo-item-name {
+    width: 200px;
+  }
+  
+  .todo-item-checkbox {
+    margin-right: 10px;
+    margin-top: 3px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
+  .todo-item-name {
+    background: none;
+    border: none;
+    outline: none;
+  }
